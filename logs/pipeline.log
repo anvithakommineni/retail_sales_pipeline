@@ -1,0 +1,18 @@
+2024-11-26 12:17:40,060 - INFO - Initializing E-commerce Pipeline
+2024-11-26 12:17:40,060 - INFO - Starting pipeline execution
+2024-11-26 12:17:40,061 - INFO - Starting data extraction
+2024-11-26 12:17:40,396 - INFO - Loaded orders dataset: 99441 records
+2024-11-26 12:17:40,626 - INFO - Loaded order_items dataset: 112650 records
+2024-11-26 12:17:40,670 - INFO - Loaded products dataset: 32951 records
+2024-11-26 12:17:40,811 - INFO - Loaded customers dataset: 99441 records
+2024-11-26 12:17:40,911 - INFO - Loaded payments dataset: 103886 records
+2024-11-26 12:17:41,270 - INFO - Loaded reviews dataset: 99224 records
+2024-11-26 12:17:41,278 - INFO - Loaded sellers dataset: 3095 records
+2024-11-26 12:17:41,280 - INFO - Loaded category_translation dataset: 71 records
+2024-11-26 12:17:41,281 - INFO - Starting data transformation
+2024-11-26 12:17:41,930 - INFO - Data transformation completed
+2024-11-26 12:17:41,939 - INFO - Starting data loading
+2024-11-26 12:17:42,289 - INFO - Saved sales_summary to C:\Users\anvit\Documents\Data engineering resume for full time\Projects\retail_sales_pipeline\data\processed\sales_summary.csv
+2024-11-26 12:17:42,617 - INFO - Saved customer_metrics to C:\Users\anvit\Documents\Data engineering resume for full time\Projects\retail_sales_pipeline\data\processed\customer_metrics.csv
+2024-11-26 12:17:42,619 - INFO - Saved product_performance to C:\Users\anvit\Documents\Data engineering resume for full time\Projects\retail_sales_pipeline\data\processed\product_performance.csv
+2024-11-26 12:17:42,620 - INFO - Pipeline execution completed successfully

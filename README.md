@@ -1,49 +1,31 @@
 # E-commerce Data Quality Pipeline
 
 ## Project Overview
-This project implements a robust ETL (Extract, Transform, Load) pipeline for e-commerce data with comprehensive data quality checks and governance. Built using Python, it processes the Brazilian E-commerce Public Dataset by Olist.
+A robust ETL (Extract, Transform, Load) pipeline for processing e-commerce data from the Brazilian E-commerce Public Dataset by Olist. This pipeline includes comprehensive data quality checks and governance features.
 
 ## Features
-- Data Quality Validation
-  - Column presence validation
-  - Null value detection
-  - Data type verification
-  - Value range validation
-  - Duplicate checking
-  
-- Data Governance
-  - Metadata tracking
-  - Data lineage documentation
-  - Transformation logging
-  - Dataset fingerprinting
+- Data quality validation and monitoring
+- Automated data governance tracking
+- Sales analysis and metrics calculation
+- Customer behavior analysis
+- Product performance tracking
 
-## Project Structure
-```
-retail_sales_pipeline/
-├── data/
-│   ├── raw/                # Raw data files
-│   └── processed/          # Processed output files
-├── src/
-│   ├── pipeline.py         # Main ETL pipeline
-│   ├── data_quality.py     # Data quality checks
-│   ├── data_governance.py  # Data governance tracking
-│   └── config.py          # Configuration settings
-├── logs/                   # Quality reports and logs
-└── requirements.txt        # Project dependencies
-```
+## Technical Architecture
+- ETL Pipeline Implementation
+- Data Quality Framework
+- Data Governance System
+- Analysis Module
 
-## Setup
+## Setup & Installation
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
-cd retail_sales_pipeline
+git clone https://github.com/anvithakommineni/retail_sales_pipeline.git
 ```
 
 2. Create virtual environment:
 ```bash
 python -m venv venv
 venv\Scripts\activate  # Windows
-source venv/bin/activate  # Linux/Mac
 ```
 
 3. Install dependencies:
@@ -51,23 +33,39 @@ source venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 ```
 
-4. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) and place the CSV files in the `data/raw` directory.
-
 ## Usage
 Run the pipeline:
 ```bash
-cd src
-python pipeline.py
+python src/pipeline.py
 ```
 
-## Reports
-The pipeline generates:
-- Data quality reports in `logs/data_quality_reports/`
-- Metadata tracking in `logs/metadata/`
-- Data lineage in `logs/lineage/`
+## Project Structure
+```
+retail_sales_pipeline/
+├── src/
+│   ├── pipeline.py          # Main ETL pipeline
+│   ├── data_quality.py      # Data quality checks
+│   ├── data_governance.py   # Data governance tracking
+│   ├── config.py           # Configuration settings
+│   └── analysis.py         # Analysis module
+├── data/
+│   ├── raw/                # Input data files
+│   └── processed/          # Processed output files
+└── logs/                   # Pipeline logs
+```
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Logging
+## Data Quality Checks
+- Column presence validation
+- Null value detection
+- Data type verification
+- Value range validation
+- Duplicate checking
+
+## Data Governance
+- Metadata tracking
+- Data lineage documentation
+- Transformation logging
+- Dataset fingerprinting
+
+## Author
+Anvitha Kommineni

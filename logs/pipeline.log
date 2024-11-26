@@ -12,7 +12,7 @@
 2024-11-26 12:17:41,281 - INFO - Starting data transformation
 2024-11-26 12:17:41,930 - INFO - Data transformation completed
 2024-11-26 12:17:41,939 - INFO - Starting data loading
-2024-11-26 12:17:42,289 - INFO - Saved sales_summary to C:\Users\anvit\Documents\Data engineering resume for full time\Projects\retail_sales_pipeline\data\processed\sales_summary.csv
-2024-11-26 12:17:42,617 - INFO - Saved customer_metrics to C:\Users\anvit\Documents\Data engineering resume for full time\Projects\retail_sales_pipeline\data\processed\customer_metrics.csv
-2024-11-26 12:17:42,619 - INFO - Saved product_performance to C:\Users\anvit\Documents\Data engineering resume for full time\Projects\retail_sales_pipeline\data\processed\product_performance.csv
+2024-11-26 12:17:42,289 - INFO - Saved sales_summary to C:\Users\anvit\Documents\Projects\retail_sales_pipeline\data\processed\sales_summary.csv
+2024-11-26 12:17:42,617 - INFO - Saved customer_metrics to C:\Users\anvit\Documents\Projects\retail_sales_pipeline\data\processed\customer_metrics.csv
+2024-11-26 12:17:42,619 - INFO - Saved product_performance to C:\Users\anvit\Documents\Projects\retail_sales_pipeline\data\processed\product_performance.csv
 2024-11-26 12:17:42,620 - INFO - Pipeline execution completed successfully
